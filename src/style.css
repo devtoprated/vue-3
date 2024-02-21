@@ -1,0 +1,16 @@
+.card-title{
+  min-height: 65px;
+  font-size: 1.10rem;
+}
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  min-height: 72px;
+  max-height: 80px;
+}
+.router-link-active {
+  color: #eb6418 !important;
+}
